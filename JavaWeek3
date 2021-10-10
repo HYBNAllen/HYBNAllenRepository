@@ -1,0 +1,15 @@
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+double itemPrice = 3.50;
+double moneyInWallet = 20.00;
+
+double myAnswer = moneyInWallet - itemPrice;
+
+System.out.println("I had " + moneyInWallet + ". " + "After buying a Runza for " + itemPrice + ", " + "I will have " + myAnswer + " left in my wallet. ");
+
+	}
+
+}
